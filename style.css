@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    align-items: center;
+    color: White;
+    font-size: 16px;
+    position: relative;
+}
+
+.main-container {
+    width: 500px;
+    height: fit-content;
+    padding: 60px 10px;
+    background-color: rgba(22, 15, 15, 0.720);
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-container>div {
+    margin-bottom: 20px;
+}
+
+.main-container .time {
+    font-size: 2rem;
+}
+
+#greeting {
+    font-size: 1.2rem;
+}
+
+#name {
+    font-size: 1.4rem;
+}
+
+#focus {
+    font-size: 1.1rem;
+}
